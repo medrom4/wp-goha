@@ -1,0 +1,59 @@
+[17-Feb-2019 17:01:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/wp-includes/formatting.php:5104) in /home/ubuntu/workspace/wp-includes/pluggable.php on line 1223
+[17-Feb-2019 17:01:33 UTC] PHP Stack trace:
+[17-Feb-2019 17:01:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[17-Feb-2019 17:01:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[17-Feb-2019 17:01:33 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[17-Feb-2019 17:01:33 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[17-Feb-2019 17:01:33 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[17-Feb-2019 17:01:33 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:01:33 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:01:33 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[17-Feb-2019 17:01:33 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:2892
+[17-Feb-2019 17:01:33 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3289
+[17-Feb-2019 17:01:33 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3173
+[17-Feb-2019 17:01:33 UTC] PHP  12. WP_Upgrader->install_package() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:748
+[17-Feb-2019 17:01:33 UTC] PHP  13. apply_filters() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:598
+[17-Feb-2019 17:01:33 UTC] PHP  14. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[17-Feb-2019 17:01:33 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:288}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[17-Feb-2019 17:01:33 UTC] PHP  16. TGMPA_Bulk_Installer->auto_activate() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:288
+[17-Feb-2019 17:01:33 UTC] PHP  17. activate_plugin() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3383
+[17-Feb-2019 17:01:33 UTC] PHP  18. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:598
+[17-Feb-2019 17:01:33 UTC] PHP  19. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[17-Feb-2019 17:01:33 UTC] PHP  20. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[17-Feb-2019 17:01:33 UTC] PHP  21. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:01:33 UTC] PHP  22. Ocean_Extra_Theme_Wizard::install() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:01:33 UTC] PHP  23. wp_safe_redirect() /home/ubuntu/workspace/wp-content/plugins/ocean-extra/includes/wizard/wizard.php:44
+[17-Feb-2019 17:01:33 UTC] PHP  24. wp_redirect() /home/ubuntu/workspace/wp-includes/pluggable.php:1309
+[17-Feb-2019 17:01:33 UTC] PHP  25. header() /home/ubuntu/workspace/wp-includes/pluggable.php:1223
+[17-Feb-2019 17:01:34 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[17-Feb-2019 17:01:34 UTC] PHP Stack trace:
+[17-Feb-2019 17:01:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[17-Feb-2019 17:01:34 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[17-Feb-2019 17:01:34 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[17-Feb-2019 17:01:34 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[17-Feb-2019 17:01:34 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[17-Feb-2019 17:01:34 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:01:34 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:01:34 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[17-Feb-2019 17:01:34 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:2892
+[17-Feb-2019 17:01:34 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3289
+[17-Feb-2019 17:01:34 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3173
+[17-Feb-2019 17:01:34 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[17-Feb-2019 17:01:34 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3553
+[17-Feb-2019 17:01:34 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
+[17-Feb-2019 17:24:08 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[17-Feb-2019 17:24:08 UTC] PHP Stack trace:
+[17-Feb-2019 17:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[17-Feb-2019 17:24:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[17-Feb-2019 17:24:08 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/admin.php:224
+[17-Feb-2019 17:24:08 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[17-Feb-2019 17:24:08 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[17-Feb-2019 17:24:08 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:24:08 UTC] PHP   7. TGM_Plugin_Activation->install_plugins_page() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[17-Feb-2019 17:24:08 UTC] PHP   8. TGMPA_List_Table->process_bulk_actions() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[17-Feb-2019 17:24:08 UTC] PHP   9. TGMPA_Bulk_Installer->bulk_install() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:2892
+[17-Feb-2019 17:24:08 UTC] PHP  10. TGMPA_Bulk_Installer->run() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3289
+[17-Feb-2019 17:24:08 UTC] PHP  11. WP_Upgrader->run() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3173
+[17-Feb-2019 17:24:08 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:759
+[17-Feb-2019 17:24:08 UTC] PHP  13. Bulk_Upgrader_Skin->after() /home/ubuntu/workspace/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:3553
+[17-Feb-2019 17:24:08 UTC] PHP  14. sprintf() /home/ubuntu/workspace/wp-admin/includes/class-bulk-upgrader-skin.php:150
